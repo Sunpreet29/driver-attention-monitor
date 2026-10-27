@@ -7,6 +7,9 @@ Runs live on a laptop webcam at interactive frame rates.
 > It is built to demonstrate the camera -> feature -> decision data path and a
 > validation methodology, not to be deployed in a vehicle.
 
+### This project involves calibrating your camera
+Please checkout this Github repository of [camera calibration](https://github.com/Sunpreet29/Camera-Calibration) and learn how to do that in a few simple steps.
+
 ## What it does
 
 - Detects a face and its eye landmarks with MediaPipe FaceMesh.
