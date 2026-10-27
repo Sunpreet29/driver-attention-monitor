@@ -1,0 +1,12 @@
+# Driver Attention Monitor — direct dependencies, pinned to the versions
+# confirmed working on Python 3.9 (Windows). Transitive deps (flatbuffers,
+# absl-py, protobuf, ...) are resolved automatically by pip.
+#
+# opencv is intentionally NOT listed separately. mediapipe pulls in
+# opencv-contrib-python; adding opencv-python here as well installs a second
+# cv2 into the same environment and causes native crashes.
+#
+# Install with:  pip install -r requirements.txt
+
+mediapipe==0.10.14
+numpy==1.26.4
